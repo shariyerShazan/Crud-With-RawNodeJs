@@ -68,6 +68,7 @@ web_modules/
 # dotenv environment variable files
 .env
 .env.*
+temp_auto_push.bat
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -124,7 +125,6 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # yarn v3
 .pnp.*
@@ -139,3 +139,5 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+.gitignore
+temp_interactive_push.bat
